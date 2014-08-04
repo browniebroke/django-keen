@@ -12,7 +12,7 @@ setup(
     packages=['dkeen',],
     url='http://pypi.python.org/pypi/django-keen/',
     license='LICENSE.txt',
-    description='',
-    long_description=open('README.txt').read(),
+    description='Simple wrapper for django around the official keen.io client',
+    long_description=open('README.md').read(),
     install_requires=required
 )

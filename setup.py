@@ -6,7 +6,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='django-keen',
-    version='0.1.0',
+    version='0.1.2',
     author='Jannis Gebauer',
     author_email='',
     packages=['dkeen',],

@@ -4,8 +4,6 @@ django-keen
 
 Simple wrapper around the official keen.io client.::
 
-    #!/usr/bin/env python
-
     from dkeen import add_event
 
     add_event("user_subscribed", {"name": user.username})

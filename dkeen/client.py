@@ -16,11 +16,11 @@ class KeenCeleryClient(KeenBlockingClient):
 
     def add_event(self, event_collection, event_body, timestamp=None):
         from .tasks import add_event_delayed
-        add_event_delayed.delay(self, event_collection, event_body, timestamp)
+        add_event_delayed.delay(KeenBlockingClient(), event_collection, event_body, timestamp)
 
     def add_events(self, events):
         from .tasks import add_events_delayed
-        add_events_delayed.delay(self, events)
+        add_events_delayed.delay(KeenBlockingClient(), events)
 
 
 def get_client():

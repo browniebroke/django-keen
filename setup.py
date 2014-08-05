@@ -6,9 +6,9 @@ with open('requirements.txt') as f:
 
 setup(
     name='django-keen',
-    version='0.1.2',
+    version='0.1.3',
     author='Jannis Gebauer',
-    author_email='',
+    author_email='ja.geb@pricemesh.io',
     packages=['dkeen',],
     url='http://pypi.python.org/pypi/django-keen/',
     license='LICENSE.txt',
